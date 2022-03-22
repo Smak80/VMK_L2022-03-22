@@ -10,6 +10,7 @@ namespace VMK_L2022_03_22
     public class Fibo : IEnumerable<int>
     {
         //private FiboEnumerator fe = new FiboEnumerator();
+
         private int a, b = 1;
 
         public IEnumerator<int> GetEnumerator() // => fe;
